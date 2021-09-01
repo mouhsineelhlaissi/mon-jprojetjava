@@ -3,10 +3,8 @@ var menu=document.getElementById("bt");
 menu.addEventListener("click",fct);
  function fct (){
 
-    console.log(leiba.value);
-}
-
-var test ="hello world"
-test1 =test.length[5];
-console.log(test1);
+var test =leiba.value.toString;
+vat test2 =test.length[1];
+console.log(test2);
+ }
 
