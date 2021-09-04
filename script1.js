@@ -7,11 +7,11 @@ var test =leiba.value
 var test1 =test.length;
 if(test1%2==0){
 for(let i = 0; i < test1/2 ; i++){
-console.log(test[i])
+console.log("la lettre numero",i+1,":",test[i]);
 }
 }else{
-    for(let i = 0; i < (test1+1)/2 ; i++){
-        console.log(test[i])
+    for(let i=0;i< (test1+1)/2 ; i++){
+        console.log("la lettre numero",i+1,":",test[i]);
 
 }
 }
