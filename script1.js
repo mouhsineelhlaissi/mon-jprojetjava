@@ -3,16 +3,18 @@ var menu=document.getElementById("bt");
 menu.addEventListener("click",fct);
  function fct (){
 
-var test =leiba.value
+var test =leiba.value;
 var test1 =test.length;
-if(test1%2==0){
-for(let i = 0; i < test1/2 ; i++){
-console.log("la lettre numero",i+1,":",test[i]);
-}
-}else{
-    for(let i=0;i< (test1+1)/2 ; i++){
-        console.log("la lettre numero",i+1,":",test[i]);
+var x=test[0]+test[1]+test[2];
+var y=test[3]+test[4];
+var z;
+z=x.value + y.value ;
+console.log(z);
 
+if(Number(leiba.value)==NaN){
+    console.log(test[0,1,2]+test[3,4]);
+}else{
+    alert("its not a number");
 }
 }
- }
+
