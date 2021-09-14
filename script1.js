@@ -8,7 +8,7 @@ var test1 =test.length;
 var x=test[0]+test[1]+test[2];
 var y=test[3]+test[4];
 var z;
-z=x.value + y.value ;
+z=Number(x) +Number(y);
 console.log(z);
 
 if(Number(leiba.value)==NaN){
