@@ -1,20 +1,20 @@
-var leiba=document.getElementById("twichia")
+var leiba=document.getElementById("name");
+var leiba1=document.getElementById("pass");
 var menu=document.getElementById("bt");
+var text=document.getElementById("login");
+
 menu.addEventListener("click",fct);
  function fct (){
+     if(leiba=="hatim" && leiba1=="12345"){
+        
+      text.innerHTML= "welcome hatim"; 
+     }else{
+        text.innerHTML= "eroor";  
+     }
 
-var test =leiba.value;
-var test1 =test.length;
-var x=test[0]+test[1]+test[2];
-var y=test[3]+test[4];
-var z;
-z=Number(x) +Number(y);
-console.log(z);
+     
 
-if(Number(leiba.value)==NaN){
-    console.log(test[0,1,2]+test[3,4]);
-}else{
-    alert("its not a number");
-}
-}
+} 
+
+
 
